@@ -1,0 +1,106 @@
+/*  
+--- 01 TYPOGRAPHY SYSTEM
+
+- Font sizes (px)
+10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
+
+Default: 15px
+
+- Font weights
+Default: 400
+Medium: 500
+Semi-bold: 600
+Bold: 700
+
+- Line heights
+Default: 1
+Small: 1.05
+Medium: 1.2
+Paragraph default: 1.6
+
+- Letter spacing
+-0.5px
+0.75px
+
+--- 02 COLORS
+
+- Primary: #2C7DFA
+- Tints:
+
+- Shades: 
+#3685FF
+
+- Accents: #1F314F
+- Grays
+
+#7D889E Gray
+#D5E1EF light Gray
+#fff   white
+--- 05 SHADOWS
+
+0 2.4rem 4.8rem rgba(0, 0, 0, 0.075);
+
+--- 06 BORDER-RADIUS
+
+Default: 9px
+Medium: 11px
+
+--- 07 WHITESPACE
+
+- Spacing system (px)
+2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
+*/
+html {
+  font-size: 62.5%;
+}
+*,
+*::before,
+*::after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Outfit", sans-serif;
+  line-height: 1;
+  background-color: #d5e1ef;
+}
+.section-qr {
+  padding: 9.6rem 0;
+}
+.container {
+  max-width: 32rem;
+  max-height: 49.7rem;
+  margin: auto;
+}
+.qr-card {
+  background-color: #fff;
+  padding: 2rem 2rem 3.2rem 2rem;
+  box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.075);
+  border-radius: 15px;
+}
+.qr-code-img {
+  width: 100%;
+}
+.qr-card-img-box {
+  border-radius: 9px;
+  overflow: hidden;
+  margin-bottom: 2rem;
+  box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.075);
+}
+.qr-card-text-box {
+  text-align: center;
+  padding: 1.09rem;
+}
+.qr-code-heading {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 2rem;
+  color: #1f314f;
+}
+.qr-code-description {
+  font-size: 1.5rem;
+  line-height: 1.2;
+  color: #7d889e;
+  font-weight: 400;
+}
